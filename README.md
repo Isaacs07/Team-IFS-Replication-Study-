@@ -1,5 +1,5 @@
 # Graphical Perception -
-Invitation paragraph  
+ 
 
 We would like to invite you to take part in our research study. Before you take part, we would like you understand why the research is being done and what it would involve for you. Please read the following information carefully and inform us if there is anything that is not clear or if you would like more information. 
 
