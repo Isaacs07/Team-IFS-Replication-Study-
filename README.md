@@ -11,26 +11,72 @@ The study is being conducted as part of a PhD Data Visualisation research projec
 
 ## Repository structure
 
-```text
-.
+IFS-Graphical-Perception/
+│
 ├── README.md
+├── .gitignore
+├── LICENSE
+├── CITATION.cff
+│
 ├── materials/
+│   ├── stimuli/
+│   │   ├── README.md
+│   │   ├── stimulus-metadata.xlsx
+│   │   ├── stimulus-metadata.csv
+│   │   ├── final/
+│   │   │   ├── README.md
+│   │   │   ├── bar_01.png
+│   │   │   ├── bar_02.png
+│   │   │   ├── ...
+│   │   │   ├── pie_01.png
+│   │   │   └── ...
+│   │   └── source/
+│   │       └── README.md
+│   │
 │   ├── participant-information/
-│   ├── qualtrics/
-│   └── stimuli/
+│   │   ├── README.md
+│   │   ├── participant-information-sheet.md
+│   │   ├── consent-form.md
+│   │   └── debrief-sheet.md
+│   │
+│   └── qualtrics/
+│       ├── README.md
+│       ├── qualtrics-survey-export.qsf
+│       └── survey-flow.pdf
+│
 ├── docs/
 │   ├── ethics/
+│   │   ├── README.md
+│   │   ├── ethics-application-redacted.pdf
+│   │   └── ethics-approval-redacted.pdf
+│   │
 │   ├── preregistration/
+│   │   ├── README.md
+│   │   └── preregistration.md
+│   │
 │   ├── decision-log/
+│   │   └── decision-log.md
+│   │
 │   └── pilot-notes/
+│       └── pilot-notes.md
+│
 ├── code/
 │   ├── stimulus-generation/
+│   │   └── README.md
+│   │
 │   └── analysis/
+│       └── README.md
+│
 ├── data/
+│   ├── README.md
 │   └── anonymised/
+│       └── README.md
+│
 └── outputs/
     ├── figures/
+    │   └── README.md
     └── tables/
+        └── README.md
 ```
 
 ## Materials
