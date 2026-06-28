@@ -1,66 +1,94 @@
-# Graphical Perception 
- 
+# Graphical Perception Replication Study
 
-We would like to invite you to take part in our research study. Before you take part, we would like you understand why the research is being done and what it would involve for you. Please read the following information carefully and inform us if there is anything that is not clear or if you would like more information. 
+This repository contains the research package for a graphical perception study comparing how accurately people estimate quantities from bar charts and pie charts.
 
-What is the purpose of the research? 
+The study is a replication and follow-up of Cleveland and McGill’s classic graphical perception work. It examines visual estimation across two related tasks:
 
-This study investigates how accurately people estimate quantities from different types of charts. It compares visual estimates made from bar charts and pie charts. The study is a replication and follow-up of a classic paper in graphical perception by Cleveland and McGill (1984). 
+1. estimating one chart value as a percentage of another chart value;
+2. estimating one chart value as a percentage of the whole chart.
 
- 
+The study is being conducted as part of a PhD Data Visualisation research project at City St George’s, University of London, in collaboration with the University of Warwick.
 
-The original study tested how accurately people estimated one chart value as a percentage of another chart value. Our study will repeat this type of task and will also test a related task: estimating one chart value as a percentage of the whole chart. This will help us understand whether bar charts and pie charts support different comparison tasks equally well. 
+## Repository structure
 
-The study is being conducted as part of a PhD Data Visualization research project at City St George's/University of Warwick.  
+```text
+.
+├── README.md
+├── materials/
+│   ├── participant-information/
+│   ├── qualtrics/
+│   └── stimuli/
+├── docs/
+│   ├── ethics/
+│   ├── preregistration/
+│   ├── decision-log/
+│   └── pilot-notes/
+├── code/
+│   ├── stimulus-generation/
+│   └── analysis/
+├── data/
+│   └── anonymised/
+└── outputs/
+    ├── figures/
+    └── tables/
+```
 
- 
+## Materials
 
-The online task is expected to take 20 minutes of average and 30 minutes maximum. 
+The `materials/` folder contains the participant-facing and study-facing materials used in the online experiment.
 
-Why have I been invited to take part? 
+This includes:
 
-You have been invited because you are registered on Prolific and meet the study eligibility criteria. To take part, you must: 
+* participant information and consent materials;
+* Qualtrics survey export;
+* final study stimuli;
+* stimulus metadata.
 
-be aged 18 or over; 
+## Stimuli
 
-be fluent in English; 
+The `materials/stimuli/` folder contains the bar chart and pie chart images used in the study.
 
-be in the UK 
+The accompanying stimulus metadata file documents the chart type, condition, filename, and relevant stimulus-generation details.
 
-have normal or corrected-to-normal vision; 
+## Ethics and preregistration
 
-use a desktop or laptop computer rather than a mobile phone or tablet; 
+The `docs/` folder contains supporting research documentation, including:
 
-be able to complete a short online visual judgement task; 
+* redacted ethics application materials;
+* preregistration documents or links;
+* decision log;
+* pilot notes.
 
-Do I have to take part? 
+Only redacted documents are included in this public repository.
 
-Participation in the project is completely voluntary, and you are free to choose not to complete the study. You can stop participating at any point during the survey by exiting the webpage. It is up to you to decide whether to take part or not. If you decide to take part, you are still free to stop participating at any time without giving a reason. If you withdraw during the study, your data will not be used in the final analysis. Due to all data being pseudonymized, you will not be able to withdraw your data after the study. 
+## Code
 
- 
+The `code/` folder contains scripts used for:
 
-What will happen if I take part? 
+* generating study stimuli;
+* processing study data;
+* reproducing the analysis.
 
-If you agree to take part, you will access the study through Prolific and complete it online. You will first see the study information and consent questions. If you consent, you will proceed to the visual judgement task. 
+## Data
 
-During the task you will: 
+The `data/anonymised/` folder contains the anonymised dataset used for analysis.
 
-complete practice trials so you understand the task; 
+Raw data are not included in this repository.
 
-view a series of bar charts and pie charts; 
+## Reproducing the analysis
 
-make quick visual estimates by entering percentage values; 
+To reproduce the analysis:
 
-The task is not a test of your intelligence and so we do not expect completely accurate answers. 
+1. Clone or download this repository.
+2. Open the scripts in `code/analysis/`.
+3. Check that the data paths point to `data/anonymised/`.
+4. Run the analysis script.
+5. Compare generated outputs with the files in `outputs/`.
 
-You should complete the study in a quiet environment and use only visual judgement - please do not use measurement tools, e.g. rulers, calculators, or markers to measure the charts. 
+## Citation
 
-What are the benefits and risks of taking part?  
+Citation information will be added once the repository is finalised.
 
-This is a low-risk study - the main possible burdens are mild eye strain, fatigue, or frustration from making visual estimates. To reduce these risks, the study is kept short, and we emphasize that precise accuracy is not expected. There will also be opportunities to pause between sections. 
+## Licence
 
-Your participation will help us understand how people interpret common chart types and may contribute to improved data visualization design and research methods. 
-
-What will happen to the results?  
-
-The results may be used in a research report, cohort presentation, publication, or future research output. City St George’s will use your name and contact details to contact you about the research study as necessary. 
+Licence to be confirmed.
