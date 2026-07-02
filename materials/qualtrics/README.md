@@ -1,25 +1,16 @@
-# Qualtrics materials
+# Materials
 
-This folder contains the Qualtrics materials used to run the online study.
+This folder contains the study materials used to set up and run the online visual judgement task.
 
 ## Contents
 
-- `qualtrics-survey-export.qsf`
-- `survey-flow.pdf`
-
-## Purpose
-
-The Qualtrics export documents the structure of the online study, including:
-
-- participant information;
-- consent questions;
-- eligibility checks;
-- practice trials;
-- study trials;
-- response entry fields;
-- debrief information.
+| Folder | Contents |
+|---|---|
+| `qualtrics/` | Qualtrics survey export |
+| `stimuli/` | Final stimuli, source files, and stimulus metadata |
 
 ## Notes
 
-The `.qsf` file can be imported into Qualtrics to inspect or reproduce the survey structure.
+These materials document the participant-facing and study-facing components of the experiment.
 
+Participant information, consent, and debrief materials were delivered through **Qualtrics**, which served as the official space for presenting study information and collecting consent.
