@@ -1,17 +1,15 @@
-# Materials
+Materials
 
 This folder contains the study materials used to set up and run the online visual judgement task.
 
-## Contents
+Contents
 
-| Folder | Contents |
-|---|---|
+Folder	Contents
+qualtrics/	Qualtrics survey export and survey-flow documentation
+stimuli/	Final stimuli, source files, and stimulus metadata
 
+Notes
 
-| `qualtrics/` | Qualtrics survey export and survey-flow documentation |
-| `stimuli/` | Final stimuli, source files, and stimulus metadata |
+These materials document the participant-facing and study-facing components of the experiment.
 
-## Notes
-
-These materials document the participant-facing and study-facing components of the experiment. A disclaimer, all this information was moved onto ** Qualtrics** which served as our official space for all matters regarding consent. 
-
+Participant information, consent, and debrief materials were delivered through Qualtrics, which served as the official space for presenting study information and collecting consent.
