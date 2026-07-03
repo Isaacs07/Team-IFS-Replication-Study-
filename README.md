@@ -13,9 +13,9 @@ The study is being conducted as part of a PhD Data Visualization research projec
 
 | Folder | Contents |
 |---|---|
-| `materials/` | Participant-facing materials, survey materials, stimuli, and stimulus metadata |
-| `docs/` | Ethics materials, preregistration, decision log, and pilot notes |
-| `code/` | Stimulus-generation code and analysis scripts |
+| `materials/` | Participant-facing materials, stimuli, and stimulus metadata |
+| `docs/` | Ethics materials, |
+| `code/` | Stimulus-generation code |
 | `data/` | Anonymised study data |
 | `outputs/` | Generated figures and tables |
 
@@ -48,16 +48,6 @@ The `data/anonymized/` folder contains the anonymized dataset used for analysis.
 
 Raw data are not included in this repository.
 
-This repository should not contain:
-
-- Prolific IDs;
-- payment records;
-- participant names or email addresses;
-- IP addresses;
-- signed consent forms;
-- unredacted ethics documents;
-- raw Qualtrics exports containing identifiers.
-
 ## Reproducing the analysis
 
 To reproduce the analysis:
@@ -68,14 +58,6 @@ To reproduce the analysis:
 4. Run the analysis script.
 5. Compare generated outputs with the files in `outputs/`.
 
-## Citation
-
-Citation information will be added once the repository is finalised.
-
-## Licence
-
-Licence to be confirmed.
-Raw data are not included in this repository.
 
 ## Reproducing the analysis
 
@@ -87,10 +69,4 @@ To reproduce the analysis:
 4. Run the analysis script.
 5. Compare generated outputs with the files in `outputs/`.
 
-## Citation
 
-Citation information will be added once the repository is finalised.
-
-## Licence
-
-Licence to be confirmed.
